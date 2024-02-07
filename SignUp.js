@@ -7,7 +7,7 @@ form.addEventListener('submit', (event)=> {
     validateInputs();
     console.log(isFormValid());
     if(isFormValid()==true){
-        form.submit();
+        
      }else {
          event.preventDefault();
      }
